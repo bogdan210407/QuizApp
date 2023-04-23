@@ -5,54 +5,54 @@ import com.bogdan.quizapppp.model.Question
 import com.bogdan.quizapppp.model.Test
 
 var answer1 = Answer(
-    isCorrect = false,
-    text = "Вариант1"
+    isCorrect = true,
+    text = "Сакура"
 )
 var answer2 = Answer(
-    isCorrect = true,
-    text = "Вариант2"
+    isCorrect = false,
+    text = "Гортензия"
 )
 var answer3 = Answer(
     isCorrect = false,
-    text = "Вариант3"
+    text = "Ликорис"
 )
 var question1 = Question(
-    text = "Какой?",
+    text = "Какой национальный цветок Японии?",
     answer = listOf(answer1, answer2, answer3)
 )
 ///////////////////////////////////////////////////////////
 var question2 = Question(
-    text = "1, 2, 3?",
+    text = "Сколько полос на флаге США?",
     answer = listOf(
         Answer(
             isCorrect = false,
-            text = "Один"
+            text = "12"
         ),
         Answer(
             isCorrect = true,
-            text = "Два"
+            text = "13"
         ),
         Answer(
             isCorrect = false,
-            text = "Три"
+            text = "14"
         )
     )
 )
 ///////////////////////////////////////////////////////////
 var question3 = Question(
-    text = "Сколько раз?",
+    text = "Где находится самая маленькая кость в теле человека?",
     answer = listOf(
         Answer(
             isCorrect = false,
-            text = "1"
-        ),
-        Answer(
-            isCorrect = true,
-            text = "2"
+            text = "Кисть руки"
         ),
         Answer(
             isCorrect = false,
-            text = "3"
+            text = "Стопа"
+        ),
+        Answer(
+            isCorrect = true,
+            text = "Ухо"
         )
     )
 )

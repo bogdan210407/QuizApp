@@ -15,5 +15,13 @@
     <fragment
         android:id="@+id/quizFragmernt"
         android:name="com.bogdan.quizapppp.quizFeature.QuizFragmernt"
-        android:label="QuizFragmernt" />
+        android:label="QuizFragmernt" >
+        <action
+            android:id="@+id/action_quizFragmernt_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.bogdan.quizapppp.result.ResultFragment"
+        android:label="ResultFragment" />
 </navigation>

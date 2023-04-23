@@ -7,4 +7,6 @@
     <string name="user_name_debug_value">1234</string>
     <string name="user_name_place_holder">Введите имя...</string>
     <string name="answer_button_label">Ответить!</string>
+    <string name="restart_button">Начать сначала!</string>
+    <string name="result_test">%1$d правильных ответа</string>
 </resources>
